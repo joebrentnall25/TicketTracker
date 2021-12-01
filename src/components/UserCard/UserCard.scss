@@ -1,0 +1,52 @@
+@use '../../assets/scss/variables' as *;
+
+.card {
+    background: linear-gradient(to left top, $card-gradient1, $card-gradient2);
+    border-radius: 2rem;
+    padding: 2rem;
+    color: $dark;
+    box-shadow: 0 0 20px grey;
+    &__counter--plus, &__counter--minus {
+        padding: 5px 20px;
+        border: none;
+        margin: 5px; 
+        border-radius: 10px;
+        background: white;
+        color: $dark;
+        font-size: 30px;
+        margin-top: 1rem;
+    }
+    &__counter--plus {
+        border: 2px solid green;
+    }
+    &__counter--minus {
+        border: 2px solid red;
+    }
+    &__role {
+        margin-bottom: 1rem;
+    }
+    &__progress {
+        margin-top: 2rem;
+        display: block;
+        width: 100%;
+        height: 30px;
+        border-radius: 1rem;
+        -webkit-appearance: none;
+	    border: none;
+    }
+    &__progress::-webkit-progress-bar {
+        background: white;
+        border-radius: 50px;
+        padding: 2px;
+        box-shadow: 0 1px 0px 0 rgba(255, 255, 255, 0.2);
+    }
+    &__progress::-webkit-progress-value {
+        border-radius: 50px;
+        box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.4);
+        background:
+            -webkit-linear-gradient(45deg, transparent, transparent 33%, rgba(0, 0, 0, 0.1) 33%, rgba(0, 0, 0, 0.1) 66%, transparent 66%),
+            -webkit-linear-gradient(top, rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.2)),
+            -webkit-linear-gradient(left, $bar-gradient1, $bar-gradient2);
+    }
+
+}
