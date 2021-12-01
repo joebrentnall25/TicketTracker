@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/TicketTracker/static/css/main.923241cc.chunk.css",
+    "main.js": "/TicketTracker/static/js/main.14c4b255.chunk.js",
+    "main.js.map": "/TicketTracker/static/js/main.14c4b255.chunk.js.map",
+    "runtime-main.js": "/TicketTracker/static/js/runtime-main.fdbf7059.js",
+    "runtime-main.js.map": "/TicketTracker/static/js/runtime-main.fdbf7059.js.map",
+    "static/js/2.ea526ee4.chunk.js": "/TicketTracker/static/js/2.ea526ee4.chunk.js",
+    "static/js/2.ea526ee4.chunk.js.map": "/TicketTracker/static/js/2.ea526ee4.chunk.js.map",
+    "static/js/3.cefb10b0.chunk.js": "/TicketTracker/static/js/3.cefb10b0.chunk.js",
+    "static/js/3.cefb10b0.chunk.js.map": "/TicketTracker/static/js/3.cefb10b0.chunk.js.map",
+    "index.html": "/TicketTracker/index.html",
+    "static/css/main.923241cc.chunk.css.map": "/TicketTracker/static/css/main.923241cc.chunk.css.map",
+    "static/js/2.ea526ee4.chunk.js.LICENSE.txt": "/TicketTracker/static/js/2.ea526ee4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fdbf7059.js",
+    "static/js/2.ea526ee4.chunk.js",
+    "static/css/main.923241cc.chunk.css",
+    "static/js/main.14c4b255.chunk.js"
+  ]
+}
